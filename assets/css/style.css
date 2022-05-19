@@ -1,0 +1,253 @@
+/* =====================================Hero-Image CSS Starts============================================== */
+.heroImg{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../images/heroimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    background-color: #000;
+}
+.logo a{
+    padding: 22px 0;
+    display: inline-block;
+}
+.navbar li{
+    display:inline-block;
+    margin-left: 15px;
+}
+.navbar li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 28px 15px 30px;
+    display:inline-block;
+    transition: all 0.5s ease-in-out;
+}
+.navbar li a:hover{
+    transform: scale(1.5);
+}
+/* =====================================Hero-info CSS Starts============================================== */
+.hero-info{
+    padding: 110px 0 140px;
+}
+.hero-info img{
+    margin-bottom: 33px;
+}
+.hero-info h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.horizontal{
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 40px;
+}
+.hero-info p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 47px;
+}
+.hero-info button{
+    padding: 14px 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.hero-info button:hover{
+    color: #000;
+    background-color: #fff;
+    transform: scale(1.08);
+}
+/* =====================================Form CSS Starts============================================== */
+.form{
+    width: 361px;
+    height: 364px;
+    border-radius: 5px;
+    background-color: #fff;
+    float: right;
+    margin: 142px 15px 0 0;
+}
+.formHeader h3, .socialInfo h3{
+    font-size: 20px;
+    color: #333333;
+}
+.formHeader h3{
+    text-align: center;
+    padding: 19px 0;
+    background-color: #f5f5f5;
+    border-radius:5px 5px 0 0;
+}
+.formHeader span{
+    color: #ff8b38;
+}
+.formBody{
+    padding: 20px 37px 50px;
+}
+input[type=text], input[type=email], input[type=password]{
+    width: 100%;
+    padding: 15px 0 10px 14px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 14px;
+}
+input[type=button]{
+    font-size: 15px;
+    font-weight:500;
+    color: #fff;
+    width: 100%;
+    background-color: #ff9b51;
+    border: none;
+    padding: 21px 0;
+    border-radius:0 0 5px 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+input[type=button]:hover{
+    transform: scale(1.05);
+}
+/* =====================================Social Media CSS Starts============================================== */
+.socialMedia{
+    background-color: #fff;
+    padding: 22px 0;
+}
+.socialInfo h3{
+    margin-bottom: 10px;
+}
+.socialIcons ul li{
+    display: inline-block;
+    margin: 0 13px;
+}
+.socialIcons ul li a{
+    font-size: 42px;
+    color: #cccccc;
+    padding: 15px;
+    display: inline-block;
+    transition: all 1s ease-in-out;
+}
+.socialIcons ul li a:hover{
+    transform: perspective(100px) rotateZ(360deg) scale(2);
+}
+/* ===<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Common CSS for Remaining Section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>=== */
+
+.sec-heading{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sec-para{
+    font-size: 14px;
+    color: #86878b;
+}
+.horizontal-edit{
+    background-color: #ff8b38;
+    margin-bottom: 30px;
+}
+.sec-img img{
+    box-shadow: 14px 14px 20px 14px #333333;
+}
+/* =====================================Tab section CSS Starts============================================== */
+.tab{
+    background-color: #f5f5f5;
+    padding: 148px 0 116px;
+    /* box-shadow: 1px 1px 5px 5px #000; */
+}
+.tab1{
+    width: 112px;
+    /* width: 100%; */
+    height: 112px;
+    background-color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 48px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.tab1:hover{
+    border-radius: 5px;
+    background-color: #ff8b38;
+    transform: scale(1.05);
+}
+.tab-info{
+    width: 470px;
+    margin: 0 auto;
+}
+.tab-info h3{
+    margin-top: 10px;
+}
+.tab-info p{
+    margin-bottom: 52px;
+}
+.tab-info button{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff8b38;
+    padding: 16px 24px;
+    border-radius: 5px;
+    border: 2px solid #ff8b38;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.tab-info button:hover{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    background-color: transparent;
+}
+.tab-img{
+    padding-left: 15px;
+    margin-top: 24px;
+}
+/* ===================================== Sub-list section CSS Starts ============================================== */
+.sub-list{
+    padding: 108px 0 138px;
+}
+.thumb-icon, .thumb-info{
+    display: inline-block;
+    float: left;
+}
+.thumb-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    padding: 8px;
+    margin-right: 30px;
+}
+.thumb-icon i{
+    color: #ff8b38;
+}
+.thumb-info{
+    width: 360px;
+    margin-bottom: 42px;
+}
+.thumb-info h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+}
+.thumb-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b;
+    text-align: justify;
+    padding-right: 20px;
+}
+/* ===================================== standard section CSS Starts ============================================== */
+
+.standard{
+    padding: 90px 0 130px;
+    background-color: #f5f5f5;
+}
